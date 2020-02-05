@@ -497,9 +497,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var boot
   !*** ./src/js/custom.js ***!
   \**************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("\n\n//# sourceURL=webpack:///./src/js/custom.js?");
+eval("/* WEBPACK VAR INJECTION */(function($) {(function() {\n  \"use strict\";\n\n  $('[data-toggle=\"sidebar\"]').click(function(event) {\n    event.preventDefault();\n    $(\".app\").toggleClass(\"sidebar-toggled\");\n  });\n})();\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./src/js/custom.js?");
 
 /***/ }),
 
